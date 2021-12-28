@@ -1,0 +1,546 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 55px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.527);
+  height: 80px;
+}
+#page-logo {
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+  color: rgb(216, 159, 84);
+  text-shadow: 3px 3px 5px rgba(29, 28, 28, 0.89);
+  font-weight: bold;
+  font-style: italic;
+}
+ul {
+  list-style: none;
+}
+header ul {
+  display: flex;
+}
+header li {
+  margin: 10px;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: rgb(216, 159, 84);
+  background-color: rgb(218, 206, 206);
+  padding: 4px 8px;
+  border-radius: 3px;
+
+}
+#hero {
+  background-image: url("/images/ivana-cajina-TUXUCVXmjQk-unsplash.jpg");
+  height: 900px;
+  background-size: cover;
+}
+#content {
+  position: relative;
+  top: 100px;
+  padding: 50px 0;
+  color: white;
+  margin: 0 auto;
+  width: 90%;
+}
+#intro {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.863);
+  text-align: center;
+  font-weight: 400;
+  font-family: Arial;
+}
+#intro a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+  font-weight: 400;
+  box-shadow: inset 0 0 0 0 rgb(209, 142, 54);
+  transition: ease-out 0.5s;
+  outline: none;
+}
+#intro a:hover {
+  color: black;
+  font-weight: 600;
+  background-color: rgb(209, 142, 54);
+  border: 1px solid rgb(209, 142, 54);
+  box-shadow: inset 300px 0 0 0 rgb(209, 142, 54);
+}
+#articles {
+  background: linear-gradient(65deg, rgb(216, 159, 84), rgb(192, 126, 73));
+  height: 300px;
+  padding: 20px 0;
+}
+#service {
+  width: 90%;
+  margin: 0 auto;
+}
+#service h2 {
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+}
+#service p {
+  width: 40%;
+  margin: 0 0 0 80px;
+}
+#sample img {
+  height: 260px;
+  /* border-radius: 7px; */
+  position: absolute;
+  left: 57%;
+  top: 930px;
+  box-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+#more {
+  background-color: rgb(180, 180, 180);
+  height: 400px;
+  padding: 20px 0;
+}
+#latest {
+  text-align: center;
+  text-transform: uppercase;
+}
+.explores img {
+  height: 200px;
+  /* box-shadow: 2px 2px 4px black; */
+  border-radius: 3px;
+}
+.explores {
+  background-color: rgb(194, 135, 59);
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px black;
+  margin: 0 10px;
+}
+.explores p {
+  text-align: center;
+  font-size: 20px;
+}
+.explores:hover {
+}
+#places {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+  gap: 0 2px;
+  align-items: center;
+}
+#choose {
+  height: 200px;
+  background: linear-gradient(65deg, rgb(223, 162, 84), rgb(209, 134, 73));
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+#select {
+  width: 90%;
+  margin: 0 75px;
+}
+#select p {
+  font-size: 50px;
+  width: 40%;
+  margin: 0 0 0 85px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 30px 0;
+}
+#another {
+  font-size: 40px;
+  font-weight: 600;
+}
+#reasons {
+  background: rgba(138, 135, 135, 0.781);
+  padding: 20px;
+  width: 100%;
+  margin: 0 150px 0 0;
+  box-shadow: 2px 2px 5px rgb(41, 39, 39);
+}
+#reasons ul li {
+  list-style: disc;
+}
+#border {
+  border: 2px solid rgba(155, 144, 144, 0.774);
+  width: 1000px;
+  height: 150px;
+  position: relative;
+  top: 20px;
+  left: 60px;
+}
+footer {
+  background-color: rgb(65, 61, 61);
+  padding: 20px 0;
+  color: white;
+}
+footer h3 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(189, 181, 181);
+  font-family: sans-serif;
+}
+footer h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  color: rgb(189, 181, 181);
+  font-family: sans-serif;
+}
+footer p {
+  text-align: center;
+  font-size: 10px;
+}
+footer ul {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+footer ul li img {
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  #hero {
+    background-image: url("/images/ivana-cajina-TUXUCVXmjQk-unsplash.jpg");
+    height: 500px;
+    background-size: cover;
+  }
+  #content {
+    position: relative;
+    top: 50px;
+    padding: 50px 0;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+  }
+  #intro {
+    font-size: 20px;
+  }
+  #intro a {
+    font-size: 13px;
+    border-radius: 3px;
+  }
+  #articles {
+    background: linear-gradient(65deg, rgb(216, 159, 84), rgb(192, 126, 73));
+    height: 500px;
+    padding: 20px 0;
+  }
+  #service {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #service h2 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  #service p {
+    width: 80%;
+    margin: 0 0 0 80px;
+  }
+  #sample {
+    box-sizing: border-box;
+  }
+  #sample img {
+    height: 260px;
+    margin: 0 auto;
+    /* border-radius: 7px; */
+    position: absolute;
+    left: 23%;
+    top: 750px;
+  }
+  #more {
+    background-color: rgb(180, 180, 180);
+    height: 100%;
+    padding: 20px 0;
+  }
+  .explores img {
+    /* height: 150px; */
+    border-radius: 3px;
+    width: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .explores {
+    background-color: rgb(194, 135, 59);
+    width: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: 30px;
+  }
+  .explores p {
+    text-align: center;
+    font-size: 20px;
+  }
+  #places {
+    display: block;
+  }
+  #choose {
+    height: 100%;
+    background: linear-gradient(65deg, rgb(223, 162, 84), rgb(209, 134, 73));
+    display: block;
+    text-align: center;
+  }
+  #select {
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+  }
+  #select p {
+    text-align: center;
+    font-size: 50px;
+    width: auto;
+    margin: 0;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 30px 0;
+  }
+  #another {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  #border {
+    display: none;
+  }
+  #reasons {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 380px) {
+  header {
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  #page-logo {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  nav ul li {
+    display: none;
+  }
+  #hero {
+    background-image: url("/images/ivana-cajina-TUXUCVXmjQk-unsplash.jpg");
+    height: 290px;
+    background-size: cover;
+  }
+  #content {
+    position: relative;
+    top: 25px;
+    padding: 50px 0;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+  }
+  #intro {
+    font-size: 15px;
+  }
+  #intro a {
+    font-size: 8px;
+    border-radius: 3px;
+  }
+  #articles {
+    background: linear-gradient(65deg, rgb(216, 159, 84), rgb(192, 126, 73));
+    height: 500px;
+    padding: 20px 0;
+  }
+  #service {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #service h2 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  #service p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #sample {
+    box-sizing: border-box;
+  }
+  #sample img {
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 7px;
+    position: absolute;
+    left: 10%;
+    top: 590px;
+  }
+  #more {
+    background-color: rgb(180, 180, 180);
+    height: 100%;
+    padding: 20px 0;
+  }
+  .explores img {
+    border-radius: 3px;
+    width: 250px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .explores {
+    background-color: rgb(194, 135, 59);
+    width: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: 30px;
+  }
+  .explores p {
+    text-align: center;
+    font-size: 20px;
+  }
+  #places {
+    display: block;
+  }
+  #choose {
+    height: 100%;
+    background: linear-gradient(65deg, rgb(223, 162, 84), rgb(209, 134, 73));
+    display: block;
+    text-align: center;
+  }
+  #select {
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+  }
+  #select p {
+    text-align: center;
+    font-size: 50px;
+    width: auto;
+    margin: 0;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 30px 0;
+  }
+  #another {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  #border {
+    display: none;
+  }
+  #reasons {
+    width: auto;
+    margin: 0 auto;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+  footer h4 {
+    font-size: 12px;
+  }
+  footer ul {
+    margin: 0;
+  }
+}
+@media (max-width: 420px) {
+  header nav ul {
+    display: none;
+  }
+  #hero {
+    height: 350px;
+  }
+  #articles {
+    height: 500px;
+    padding: 20px 0;
+  }
+  #service {
+    margin: 0 auto;
+  }
+
+  #service p {
+    margin: 0 auto;
+  }
+  #sample img {
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 7px;
+    position: absolute;
+    left: 13%;
+    top: 670px;
+  }
+  .explores img {
+    width: 260px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  .explores {
+    background-color: rgb(194, 135, 59);
+    width: 260px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: 30px;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+  footer h4 {
+    font-size: 12px;
+  }
+  footer ul {
+    margin: 0;
+  }
+  #select {
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+  }
+  #select p {
+    text-align: center;
+    font-size: 35px;
+    width: auto;
+  }
+  #another {
+    font-size: 27px;
+  }
+}
+@media (max-width: 540px) {
+    header nav ul {
+        display: none;
+    }
+    .explores img {
+        width: 360px;
+        margin: 0 auto;
+        object-fit: cover;
+      }
+      .explores {
+        background-color: rgb(194, 135, 59);
+        width: 360px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 2px 2px 4px black;
+        margin-bottom: 30px;
+      }
+}
